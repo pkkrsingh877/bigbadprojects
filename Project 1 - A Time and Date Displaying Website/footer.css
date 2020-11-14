@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    background-color: #212329;
+
+    padding: 2rem;
+}
+
+.footer1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /*background-color: #212329;*/
+
+    line-height: 32px;
+}
+
+.footer2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.footer3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.footer4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: red;
+    transition: 0.3s ease-out;
+}
+
+h2 {
+    color: white;
+    padding-bottom: 1rem;
+}
+
+#email {
+    width: 240px;
+    height: 40px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+
+#email::placeholder {
+    color: grey;
+}
+
+#btn {
+    width: 80px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+}
+
+#btn:hover {
+    background-color: blue;
+    color: white;
+    transition: 0.3s ease-out;
+}
