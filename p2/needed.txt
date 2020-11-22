@@ -1,0 +1,47 @@
+let tit;
+let desc;
+let itemsJsonArray, itemsJsonArrayStr;
+
+function update(){
+    console.log("updating the list...");
+
+    //getting the key[title] and value[description]
+
+    tit = document.getElementById('title').value;
+    desc = document.getElementById('description').value;
+
+
+    if (localStorage.getItem('itemsJson') == null) {
+        itemsJsonArray = [];
+        itemsJsonArray.push(tit, desc);
+        localStorage.setItem('itemsJson', JSON.stringify(itemsJsonArray));
+    } else {
+        itemsJsonArrayStr = localStorage.getItem('itemsJson');
+        itemsJsonArray = JSON.parse(itemsJsonArrayStr);
+        itemsJsonArray.push(tit, desc);
+        localStorage.setItem('itemsJson', JSON.stringify(itemsJsonArray));
+    }
+
+
+    //Populate the table
+
+
+    let str = "";
+    let tableBody = document.getElementById('tableBody');
+
+    itemsJsonArray.forEach((element, index) => {
+        str += `
+            <tr>
+                <th scope="row">${index + 1}</th>
+                <td>${element[0]}</td>
+                <td>${element[1]}</td>
+                <td><button class="btn-sm btn-primary">Delete</button></td>
+            </tr>
+        `;
+    });
+    tableBody.innerHTML = str;
+}
+
+add = document.getElementById("add");
+add.addEventListener("click", update());
+update();

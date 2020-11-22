@@ -1,0 +1,5 @@
+1. Clearing the existing localStorage and the code from the browser and code editor respectively.
+
+2. Try getting the text you enter in the item title box
+
+3. 
