@@ -1,0 +1,117 @@
+*{
+    background-color: gainsboro;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    color: purple;
+}
+
+h2, h3, h5{
+    text-align: center;
+    color: purple;
+}
+
+#MPF-btn{
+    background-color: ghostwhite;
+    color: purple;
+    font-size: x-large;
+    border: 0px;
+    border-radius: 8px;
+    padding: 0px;
+    margin-bottom: 1rem;
+    display: block;
+    width: 200px;
+    height: 80px;
+    outline: none;
+    box-shadow: 2px 2px 2px 1px rgba(103, 128, 159, 0.6);
+}
+
+    #MPF-btn:hover{
+        color: ghostwhite;
+        background-color: purple;
+        box-shadow: 2px 2px 2px 1px rgba(103, 128, 159, 1);
+        transition: 0.3s ease-in-out;
+        outline: none;
+    }
+
+    #MPF-btn:active{
+        outline: none;
+    }
+
+#MP {
+    margin-bottom: 1rem;
+    padding: none;
+    outline: none;
+    background-color: ghostwhite;
+    color: purple;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#commentary {
+    margin-bottom: 1rem;
+    padding: none;
+    outline: none;
+    background-color: ghostwhite;
+    color: purple;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+#retry-btn{
+    background-color: ghostwhite;
+    color: purple;
+    font-size: x-large;
+    border: none;
+    border-radius: 8px;
+    padding: 0px;
+    display: block;
+    width: 200px;
+    height: 80px;
+    outline: none;
+    box-shadow: 2px 2px 2px 1px rgba(103, 128, 159, 0.6);
+}
+
+    #retry-btn:hover{
+        color: ghostwhite;
+        background-color: purple;
+        box-shadow: 2px 2px 2px 1px rgba(103, 128, 159, 1);
+        transition: 0.3s ease-in-out;
+        outline: none;
+    }
+
+    #retry-btn:active{
+        outline: none;
+    }
+
+.myFoot {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: center;
+}
+
+a{
+    color: purple;
+}
+a:hover{
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+
+.container{
+    display: flex;
+    word-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
