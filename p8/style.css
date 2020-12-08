@@ -1,0 +1,200 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.something {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    height: 100vh;
+    width: 100vw;
+    animation: newAnimation 15s ease infinite;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+}
+
+    #made {
+        display: block;
+        margin-top: 25vh;
+        padding-right: 1rem;
+        color: black;
+        font-size: 4rem;
+        font-weight: bolder;
+        font-family: Helvetica, sans-serif, Arial; 
+        text-align: right;
+        animation: made 8s ease-out infinite;
+        animation-delay: 2s;
+    }
+
+    #with {
+        display: block;
+        margin-top: 25vh;
+        padding-right: 1rem;
+        color: black;
+        font-size: 4rem;
+        font-weight: bolder;
+        font-family: Helvetica, sans-serif, Arial; 
+        text-align: right;
+        animation: with 8s ease-out 1;
+        animation-delay: 7s;
+    }
+
+    #love {
+        display: block;
+        margin-top: 25vh;
+        padding-right: 1rem;
+        color: black;
+        font-size: 4rem;
+        font-weight: bolder;
+        font-family: Helvetica, sans-serif, Arial; 
+        text-align: right;
+        animation: love 8s ease-out 1;
+        animation-delay: 12s;
+    }
+
+    #by {
+        display: block;
+        margin-top: 25vh;
+        padding-right: 1rem;
+        color: black;
+        font-size: 4rem;
+        font-weight: bolder;
+        font-family: Helvetica, sans-serif, Arial; 
+        text-align: right;
+        animation: by 8s ease-out 1;
+        animation-delay: 17s;
+    }
+
+    #prabhat {
+        display: block;
+        margin-top: 25vh;
+        padding-right: 1rem;
+        color: black;
+        font-size: 4rem;
+        font-weight: bolder;
+        font-family: Helvetica, sans-serif, Arial; 
+        text-align: right;
+        animation: prabhat 8s ease-out 1;
+        animation-delay: 22s;
+    }
+
+    #kumar {
+        display: block;
+        margin-top: 25vh;
+        padding-right: 1rem;
+        color: black;
+        font-size: 4rem;
+        font-weight: bolder;
+        font-family: Helvetica, sans-serif, Arial; 
+        text-align: right;
+        animation: kumar 8s ease-out 1;
+        animation-delay: 27s;
+    }
+
+    @keyframes made {
+        from {
+            font-size: 4rem;
+            text-align: right;
+            margin-left: 105vw;
+        }
+        to {
+            font-size: 4rem;
+            text-align: left;
+            margin-left: -105vw;
+        }
+    }     
+    
+    @keyframes with {
+        from {
+            font-size: 4rem;
+            text-align: right;
+        }
+        to {
+            font-size: 4rem;
+            text-align: left;
+        }
+    }   
+
+    @keyframes love {
+        from {
+            font-size: 4rem;
+            text-align: right;
+        }
+        to {
+            font-size: 4rem;
+            text-align: left;
+        }
+    }   
+
+    @keyframes by {
+        from {
+            font-size: 4rem;
+            text-align: right;
+        }
+        to {
+            font-size: 4rem;
+            text-align: left;
+        }
+    }   
+
+    @keyframes prabhat {
+        from {
+            font-size: 4rem;
+            text-align: right;
+        }
+        to {
+            font-size: 4rem;
+            text-align: left;
+        }
+    }   
+
+    @keyframes kumar {
+        from {
+            font-size: 4rem;
+            text-align: right;
+        }
+        to {
+            font-size: 4rem;
+            text-align: left;
+        }
+    }      
+
+@keyframes newAnimation {
+    0% {
+        background-color:  #FADDE1;
+    }
+    10%{
+        background-color:  #FFC4D6;
+    }
+    20% {
+        background-color:  #FFA6C1;
+    }
+    30% {
+        background-color:  #FF87AB;
+    }
+    40% {
+        background-color:  #FF58DF;
+    }
+    50% {
+        background-color: #FF97B7;
+    }
+    60% {
+        background-color: #FFACC5;
+    }
+    70% {
+        background-color: #FFCAD4;
+    }
+    80% {
+        background-color: #F4ACB7;
+    }
+    90% {
+        background-color: #F4ACB0;
+    }
+    100%{
+        background-color: #FADDE1;
+    }
+}
