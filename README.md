@@ -15,6 +15,26 @@ The following are the changes I have made.
 5. Changed the website name
 
 
+## p2
+
+-----------------------------------
+
+## p3
+
+------------------------------------
+
+## p4
+
+------------------------------------
+
+## p5
+
+This the first project i created without getting or asking for ideas from other. 
+
+### How does this project work?
+
+You basically click find button. And then you're magic power and a comment will appear on screen. If you want to find your magic power again then you click on the reset button and everything resets and the you redo everything.  
+
 That's all....
 
 Thanks for visiting...
