@@ -1,0 +1,48 @@
+.header-container{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    position: relative;
+
+    background-color: purple;
+
+}
+
+    .nav-container {
+        padding: 1.5rem;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+        .nav-container h3 {
+            color: honeydew;
+            display: inline;
+        }
+
+        .nav-items-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+            .nav-items-container li {
+                list-style-type: none;
+            }
+
+            .nav-items-container li a {
+                color: white;
+                text-decoration: none;
+            }
+
+            .nav-items {
+                padding-left: 2rem;
+            }
+
+                .nav-items-container li a:hover {
+                    color: red;
+                    transition: 0.4s ease-out;
+                }

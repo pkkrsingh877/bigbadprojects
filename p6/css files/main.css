@@ -1,0 +1,56 @@
+/*
+The code that I am writing here is just to layout the basic look of the website 
+without using any javascript. 
+*/
+
+*{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.big-container {
+    /*background-image: url(https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);*/
+
+    margin-right: 10vw;
+    margin-left: 10vw;
+    border: none;
+    padding: none;
+
+    width: 80%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+    .big-container h2 {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .big-container .paragraph {
+        margin-bottom: 1.5rem;
+    }
+
+    .small-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-evenly;
+        justify-content: space-between;
+    }
+        .small-container a img {
+            width: 570px;
+            margin-bottom: 5%;
+            border: 1px solid black;
+            border-radius: 5px;
+            position: relative;
+            filter: drop-shadow(2px 2px 6px grey);
+        }
+            .small-container a img:hover {
+                border: 1px solid black;
+                transition: 0.3s ease-in-out;
+                filter: drop-shadow(2px 2px 6px black);
+            }

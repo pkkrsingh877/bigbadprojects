@@ -1,0 +1,23 @@
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.about h1 {
+    font-size: x-large;
+}
+
+.about h2 {
+    font-size: larger;
+}
+
+.about h3 {
+    font-size: large;
+    font-weight: normal;
+}
+
+.about h4 {
+    font-size: x-small;
+    font-weight: normal;
+}
