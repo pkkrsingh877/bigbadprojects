@@ -35,6 +35,10 @@ This the first project i created without getting or asking for ideas from other.
 
 You basically click find button. And then you're magic power and a comment will appear on screen. If you want to find your magic power again then you click on the reset button and everything resets and the you redo everything.  
 
+
+### p8
+
+This is a new css project that i uploaded on github 
 That's all....
 
 Thanks for visiting...
