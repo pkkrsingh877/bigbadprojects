@@ -1,0 +1,147 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: orangered;
+}
+
+
+header h1 {
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+main p {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#gen-quote {
+    text-align: center;
+    background-color: whitesmoke;
+    color: orangered;
+}
+
+#gen-btn {
+    border: 0;
+    outline: none;
+    width: 10rem;
+    height: 3rem;
+    background-color: whitesmoke;
+    color: orangered;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+    #gen-btn:hover {
+        box-shadow: 2px 2px 1px whitesmoke;
+        font-size: 1.5rem;
+        background-color: green;
+        color: whitesmoke;
+        transition: 0.3s ease-out;
+    }
+
+#res-btn {
+    border: 0;
+    outline: none;
+    width: 10rem;
+    height: 3rem;
+    background-color: whitesmoke;
+    color: orangered;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+    #res-btn:hover {
+        box-shadow: 2px 2px 1px whitesmoke;
+        font-size: 1.5rem;
+        background-color: red;
+        color: whitesmoke;
+        transition: 0.3s ease-out;
+    }
+
+#dark-mode {
+    border: 0;
+    outline: none;
+    width: 10rem;
+    height: 3rem;
+    background-color: whitesmoke;
+    color: orangered;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+    #dark-mode:hover {
+        box-shadow: 2px 2px 1px whitesmoke;
+        font-size: 1.5rem;
+        background-color: green;
+        color: whitesmoke;
+        transition: 0.3s ease-out;
+    }
+
+#normal-mode {
+    border: 0;
+    outline: none;
+    width: 10rem;
+    height: 3rem;
+    background-color: whitesmoke;
+    color: orangered;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+    #normal-mode:hover {
+        box-shadow: 2px 2px 1px whitesmoke;
+        font-size: 1.5rem;
+        background-color: red;
+        color: whitesmoke;
+        transition: 0.3s ease-out;
+    }
+
+footer p {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: whitesmoke;
+}    
+
+footer .footer-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}    
+
+    footer .footer-links a {
+        padding-left: 1rem;
+        text-decoration: none;
+        color: whitesmoke;
+        margin-bottom: 1rem;
+    }
+
+    footer .footer-links a:hover {
+        color: green;
+        transition: 0.3s ease-out;
+    }
+
+    .mode-change {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
