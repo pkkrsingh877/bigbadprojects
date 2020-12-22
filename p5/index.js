@@ -18,10 +18,10 @@ document.getElementById('MPF-btn').onclick = function findMP(){
     
     document.querySelector('#MP').innerHTML = "Your Magic Power is " + yourMagicPower;
 
-    if (yourMagicPower === 9999) {
-        comments.innerText = "O-Oh my goodness!\nThe MPF is destroyed!\nThe counter's stopped!";
-    } else if (yourMagicPower < 9999 && yourMagicPower >= 8544) {
-        comments.innerText = "8544! Unbelievable!\nWhat?!\nOld Man, that's wack!\n"
+    if (yourMagicPower <= 9999 && yourMagicPower >= 9001) {
+        comments.innerText = "Nappa: Vegeta, What's his Power Level\n Vegeta: It's Over 9000!\nNappa: What's O-Over 9000! That can't be right. The scouter must be malfunctioning";
+    } else if (yourMagicPower <= 9000 && yourMagicPower >= 8544) {
+        comments.innerText = "Over 8544! Unbelievable!\nThat's a wack!\nYou are stronger that the wizard saint Jura!"
     } else if (yourMagicPower < 8544 && yourMagicPower >= 3825) {
         comments.innerText = "O-Over 3000?!\nWha...?!\nWhat the hell is that?!\nWow...\nI've never seen a score like that, even in my corps!"
     } else if (yourMagicPower < 3825 && yourMagicPower >= 365) {
