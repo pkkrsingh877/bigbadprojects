@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    color: #819da1;
+}
+
+.header .header-heading {
+    padding: 0;
+    margin: 0;
+
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar ul li {
+    padding: 0 2rem;
+}
+
+.navlinks {
+    color: #819da1;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 100;
+    align-items:
+}
+
+.fa {
+    font-size: 2.5rem;
+    display: none;
+}
+
+@media screen (max-width: 1054) {
+    .navbar {
+        display: none;
+    }
+}
+
