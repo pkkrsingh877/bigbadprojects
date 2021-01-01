@@ -34,9 +34,15 @@
 .fa {
     font-size: 2.5rem;
     display: none;
+    padding: 0.5rem 2rem;
 }
 
-@media screen (max-width: 1054) {
+
+@media (max-width: 1080px){
+    .fa {
+        display: block;
+    }
+
     .navbar {
         display: none;
     }
