@@ -1,118 +1,117 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    background-color: darkblue;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  background-color: darkblue;
 }
 
 .main-container {
-    width: 100vw;
+  width: 100%;
 
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
+.main-container .intro {
+  color: #add8e6;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
 
-    .main-container .intro {
-        color: #add8e6;
-        font-size: 1.5rem;
-        text-align: center;
-        margin-bottom: 1.5rem;
-    }
+.main-container .description {
+  color: #add8e6;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
 
-    .main-container .description {
-        color: #add8e6;
-        font-size: 1rem;
-        text-align: center;
-        margin-bottom: 1.5rem;
-    }
+.main-container #name {
+  height: 3rem;
+  width: 12rem;
+  color: dodgerblue;
+  background-color: white;
+  outline: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
 
-    .main-container #name {
-        height: 3rem;
-        width: 12rem;
-        color: dodgerblue;
-        background-color: white;
-        outline: none;
-        border-radius: 5px;
-        font-size: 1rem;
-        margin-bottom: 1.5rem;
-        text-align: center;
-    }
+.main-container #name:hover {
+  color: white;
+  background-color: dodgerblue;
+  font-size: 1.5rem;
+  outline: none;
+  transition: 0.3s ease-out;
+}
 
-    .main-container #name:hover {
-        color: white;
-        background-color: dodgerblue;
-        font-size: 1.5rem;
-        outline: none;
-        transition: 0.3s ease-out;
-    }
+.main-container input::placeholder {
+  color: dodgerblue;
+  /*opacity: 0.5;*/
+  text-align: center;
+}
 
-    .main-container input::placeholder {
-        color: dodgerblue;
-        /*opacity: 0.5;*/
-        text-align: center;
-    }
+.main-container #genderId {
+  height: 3rem;
+  width: 12rem;
+  background-color: white;
+  color: dodgerblue;
+  font-size: 0.8rem;
+  outline: none;
+  border-radius: 5px;
+}
 
-    .main-container #genderId {
-        height: 3rem;
-        width: 12rem;
-        background-color: white;
-        color: dodgerblue;
-        font-size: 0.8rem;
-        outline: none;
-        border-radius: 5px;
-    }
+.main-container select {
+  margin-bottom: 1.5rem;
+}
 
-    .main-container select {
-        margin-bottom: 1.5rem;
-    }
+.main-container select option {
+  background-color: white;
+  color: dodgerblue;
+}
 
-    .main-container select option {
-        background-color: white;
-        color: dodgerblue;
-    }
+.main-container #gen-btn {
+  height: 3rem;
+  width: 12rem;
+  color: dodgerblue;
+  background-color: white;
+  outline: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
 
-    .main-container #gen-btn {
-        height: 3rem;
-        width: 12rem;
-        color: dodgerblue;
-        background-color: white;
-        outline: none;
-        border-radius: 5px;
-        font-size: 1rem;
-        margin-bottom: 1.5rem;
-    }
+.main-container #gen-btn:hover {
+  color: white;
+  background-color: dodgerblue;
+  font-size: 1.5rem;
+  transition: 0.3s ease-out;
+}
 
-    .main-container #gen-btn:hover {
-        color: white;
-        background-color: dodgerblue;
-        font-size: 1.5rem;
-        transition: 0.3s ease-out;
-    }
+.main-container #display-insult {
+  background-color: white;
+  color: dodgerblue;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+}
 
-    .main-container #display-insult {
-        background-color: white;
-        color: dodgerblue;
-        border-radius: 5px;
-        margin-bottom: 1.5rem;
-    }
+.main-container #reset-btn {
+  height: 3rem;
+  width: 12rem;
+  color: dodgerblue;
+  background-color: white;
+  outline: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
 
-    .main-container #reset-btn {
-        height: 3rem;
-        width: 12rem;
-        color: dodgerblue;
-        background-color: white;
-        outline: none;
-        border-radius: 5px;
-        font-size: 1rem;
-        margin-bottom: 1.5rem;
-    }
-
-    .main-container #reset-btn:hover {
-        color: white;
-        background-color: dodgerblue;
-        font-size: 1.5rem;
-        transition: 0.3s ease-out;
-    }
+.main-container #reset-btn:hover {
+  color: white;
+  background-color: dodgerblue;
+  font-size: 1.5rem;
+  transition: 0.3s ease-out;
+}

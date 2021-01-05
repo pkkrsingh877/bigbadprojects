@@ -1,0 +1,21 @@
+{
+    "name": "Insult Generator",
+    "short_name": "IG",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "darkblue",
+    "theme_color": "#222",
+    "description": "An Insult Generator",
+    "icons": [
+        {
+            "src": "icon.png",
+            "sizes": "512x512",
+            "types": "image/png"
+        },
+        {
+            "src": "icon.png",
+            "sizes": "192x192",
+            "types": "image/png"
+        }
+    ]
+}

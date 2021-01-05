@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Insult Generator. Does exactly what its name refers it might do. Generates random insults and displays.">
+    <meta name="theme-color" content="darkblue">
     <title>Insult Generator</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="manifest" href="manifest.webmanifest">
 </head>
+
 <body>
 
     <header class="header-wrapper">
@@ -28,17 +34,22 @@
         </p>
 
         <p class="description">
-            Enter their name and gender to get some pre-written insult for them. Just copy and paste the insult in their inbox. Have fun!
+            Enter their name and gender to get some pre-written insult for them. Just copy and paste the insult in their
+            inbox. Have fun!
         </p>
-
-        <input type="text" placeholder="Name" id="name">
-        <select name="gender" id="genderId">
-            <option value="">
-                --Please Choose a Gender
-            </option>
-            <option value="Male">Male</option>
-            <option value="Female">Female</option>
-        </select>
+        <!--
+        <label for="name">
+            <input type="text" placeholder="Name" id="name">
+        </label>
+        <label for="genderId">
+            <select name="gender" id="genderId">
+                <option value="">
+                    --Please Choose a Gender
+                </option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </label>-->
         <button id="gen-btn">Generate</button>
 
         <div id="display-insult">
@@ -76,11 +87,16 @@
         </div>
         <div class="footer4">
             <h2>Join our Newsletter</h2>
-            <input type="email" placeholder="email" class="take-email">
+            <label for="take-email">
+                <p>
+                    Enter your email:</p>
+                <input type="email" placeholder="email" id="take-email">
+            </label>
             <button class="take-email-btn">Send</button>
         </div>
     </footer>
 
     <script src="index.js"></script>
 </body>
+
 </html>
