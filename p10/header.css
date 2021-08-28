@@ -1,50 +1,48 @@
 .header {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 
-    color: #819da1;
+  color: #819da1;
 }
 
 .header .header-heading {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 
-    font-size: 4rem;
-    font-weight: 300;
+  font-size: 4rem;
+  font-weight: 300;
 }
 
 .navbar ul {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .navbar ul li {
-    padding: 0 2rem;
+  padding: 0 2rem;
 }
 
 .navlinks {
-    color: #819da1;
-    text-decoration: none;
-    font-size: 2.5rem;
-    font-weight: 100;
-    align-items:
+  color: #819da1;
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-weight: 100;
+  align-items: ;
 }
 
 .fa {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
+  display: none;
+  padding: 0.5rem 2rem;
+}
+
+@media (max-width: 1080px) {
+  .fa {
+    display: block;
+  }
+
+  .navbar {
     display: none;
-    padding: 0.5rem 2rem;
+  }
 }
-
-
-@media (max-width: 1080px){
-    .fa {
-        display: block;
-    }
-
-    .navbar {
-        display: none;
-    }
-}
-

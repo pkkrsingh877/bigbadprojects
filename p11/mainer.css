@@ -1,0 +1,83 @@
+main {
+  color: white;
+  background-color: rgba(19, 189, 132, 1);
+  width: 100vw;
+  height: 100vh;
+}
+
+.card {
+  background-color: rgba(220, 220, 220, 0.658);
+  height: auto;
+  width: auto;
+  border-radius: 7px;
+  box-shadow: 5px 5px rgba(220, 220, 220, 0.904);
+  margin: 1rem;
+}
+
+.card {
+  color: rgb(0, 0, 0, 0.9);
+  font-weight: 100;
+  font-size: x-large;
+  font-style: normal;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.card #titleDisplay {
+  font-size: x-large;
+}
+
+.card #descriptionDisplay {
+  font-size: small;
+}
+.card:hover {
+  color: black;
+  box-shadow: 5px 5px rgb(0, 0, 0, 0.5);
+}
+
+.fill {
+  margin: 1rem;
+  color: black;
+  background-color: rgba(220, 220, 220, 0.658);
+  border-radius: 7px;
+  font-weight: 100;
+  font-style: normal;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  box-shadow: 5px 5px rgba(220, 220, 220, 0.904);
+}
+
+.fill button {
+  color: gainsboro;
+  background-color: rgb(19, 189, 132);
+  border-radius: 7px;
+  padding: 0.1rem;
+  margin: 0.1rem;
+  font-weight: 100;
+  font-style: normal;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: small;
+  outline: none;
+}
+
+.fill button:hover {
+  color: rgb(0, 0, 0, 0.7);
+  background-color: rgba(19, 189, 132, 0.5);
+}
+
+.fill input {
+  outline: none;
+  border-radius: 7px;
+  box-shadow: 1px 1px rgb(0, 0, 0, 0.7);
+  font-weight: 100;
+  font-size: small;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+}
+
+.fill:hover {
+  box-shadow: 5px 5px rgb(0, 0, 0, 0.5);
+}
