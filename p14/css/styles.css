@@ -11,10 +11,13 @@ body {
 
 .header{
     background-color: red;
+    height: 20vh;
 }
 .main{
     background-color: cyan;
+    height: 60vh;
 }
 .footer{
     background-color: darkolivegreen;
+    height: 20vh;
 }
