@@ -8,8 +8,8 @@ body {
 }
 
 header, footer {
-  background-color: green;
-  color: white;
+  background-color: #ff8400;
+  color: rgb(22, 2, 196);
   line-height: 100px;
   padding: 0 20px;
 }
