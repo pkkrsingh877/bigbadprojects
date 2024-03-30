@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: #80e5cd; /* Seafoam Green */
+    --secondary-color: #3e2723; /* Earth Brown */
+    --tertiary-color: #ffffff; /* White */
+
+    --fs-900: 4rem;
+    --fs-500: 2rem;
+    --fs-300: 1.5rem;
+    --fs-100: 1rem;
+
+    --img-size: 30rem;
+
+    --parallax-image-size: 150vh;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+.parallax {
+    background-image: url("../images/intro.jpg");
+    height: var(--parallax-image-size);
+
+    /* Parallax Effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Postion for overlay */
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text-content {
+    /* To show text content over overlay */
+    position: absolute;
+
+    /* Make sure that text is in flex column */
+    display: flex;
+    flex-direction: column;
+}
+
+.header-text {
+        /* Text Effect */
+    font-size: var(--fs-500);
+    font-family: "Work Sans", 'Courier New', Courier, monospace;
+    color: var(--tertiary-color);
+
+    padding: 0 var(--fs-500);
+}
+
+.header-heading {
+    font-size: var(--fs-900);
+    font-family: "Work Sans", 'Courier New', Courier, monospace;
+    font-weight: 900;
+    color: var(--tertiary-color);
+
+    padding: var(--fs-500);
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main .page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.page .description { 
+    max-height: auto;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    min-height: max-content;
+}
+
+.page .description .heading {
+            /* Text Effect */
+    font-size: var(--fs-500);
+    font-family: "Work Sans", 'Courier New', Courier, monospace;
+
+    padding: var(--fs-500);
+}
+
+.page .description .text {
+            /* Text Effect */
+    font-size: var(--fs-300);
+    font-family: "Open Sans", 'Courier New', Courier, monospace;
+
+    padding: 0 var(--fs-500);
+}
+
+@media (max-width: 768px) {
+    :root {
+        --img-size: 10rem;
+
+        --fs-900: 3rem;
+        --fs-500: 1.4rem;
+        --fs-300: 1rem;
+        --fs-100: 0.75rem;
+
+        --parallax-image-size: 75vh;
+    }
+    main .page {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .image {
+        height: auto;
+    }
+    .description {
+        height: auto;
+    }
+}
