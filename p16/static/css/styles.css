@@ -144,3 +144,23 @@ main .page {
         height: auto;
     }
 }
+
+.animation {
+  animation-timeline: view();
+
+  animation-name: appear;
+  animation-fill-mode: both;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+
+  to {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
