@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --pink-color: #ff608c; /* Pink */
+    --green-color: #00c1b5; /* Green */
+    --yellow-color: #ffbe00; /* Yellow */
+    --white-color: #fff; /* White */
+    --orange-color: #ff651a; /* Orange */
+    --blue-color: #1d3fbb; /* Blue */
+    --red-color: #e30512; /* Red */
+}
+
+body {
+    background-color: var(--pink-color);
+}
+
+header {
+    display: flex;
+    justify-content: left;
+}
+
+#logo {
+    width: 260px;
+    height: auto;
+    padding: 1rem;
+}
