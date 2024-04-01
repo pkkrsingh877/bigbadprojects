@@ -86,3 +86,20 @@ body {
         padding-bottom: 3rem;
     }
 }
+
+/* Footer Section Styles */
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    & .footer-column {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    & .logo {
+        width: 7rem;
+        padding: 1rem;
+    }
+}
