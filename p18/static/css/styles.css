@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Colors */
+    --green-color: #04ddb2;
+    --black-color: #333;
+    --white-color: #fff;
+    --darkish-color: #767676;
+
+    /* Font Sizes */
+    --fs-xl: 4rem;
+    --fs-l: 1.5rem;
+    --fs-m: 1.1rem;
+    --fs-s: 1rem;
+}
+
+body {
+    font-family: Karla,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+/* Header Section Styles */
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+
+    & .logo {
+        width: 7rem;
+        padding: 1rem;
+    }
+
+    & .links {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        padding: 0 15rem;
+    }
+
+    & .link {
+        padding: 1rem;
+        text-decoration: none;
+        color: var(--darkish-color);
+        font-weight: 500;
+    }
+}
+
+/* Button is a common element between Header and Main Section */
+.button {
+    border: none;
+    border-radius: 1.5rem;
+    background-color: var(--green-color);
+    font-weight: 500;
+    color: var(--white-color);
+    font-size: var(--fs-l);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+/* Main Section Styles */
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+
+    & .heading {
+        font-size: var(--fs-xl);
+    }
+
+    & .description {
+        font-size: var(--fs-l);
+        font-weight: 100;
+        padding: 0 25rem;
+        text-align: center;
+    }
+
+    & img {
+        width: 70vw;
+        border-radius: 2rem;
+    }
+
+    & .main-item {
+        padding-bottom: 3rem;
+    }
+}
