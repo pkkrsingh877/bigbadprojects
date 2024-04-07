@@ -19,7 +19,7 @@
 }
 
 body {
-    font-family: Karla,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: Karla, Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 /* Header Section Styles */
@@ -82,8 +82,18 @@ body {
         border-radius: 2rem;
     }
 
+    & img:hover {
+        width: 71vw;
+        border-radius: 2rem;
+    }
+
+    & iframe {
+        width: 80vw;
+        height: 100vh;
+    }
+
     & .main-item {
-        padding-bottom: 3rem;
+        padding-bottom: 1rem;
     }
 }
 
@@ -96,10 +106,32 @@ body {
     & .footer-column {
         display: grid;
         grid-template-columns: 1fr;
+        place-items: center;
     }
-
+    
     & .logo {
         width: 7rem;
         padding: 1rem;
+    }
+
+    & .footer-column-heading, .footer-links {
+        padding: 1rem;
+    }
+
+    & .footer-links {
+        color: var(--darkish-color);
+        font-size: var(--fs-s);
+        text-decoration: none;
+    }
+
+    & .footer-links:hover {
+        color: var(--black-color);
+        font-size: var(--fs-m);
+        text-decoration: none;
+    }
+
+    & .footer-column-heading {
+        font-weight: bold;
+        color: var(--black-color);
     }
 }

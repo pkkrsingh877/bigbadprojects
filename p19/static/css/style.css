@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dirty-white-color: #f6f6eb;
+    --blue-white-color: #f3f2fc;
+    --white-color: #fff;
+    --blue-color: #381fd1;
+    --light-black-color: #4b4b4e;
+    --dark-black-color: #11284b;
+}
