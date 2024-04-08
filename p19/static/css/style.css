@@ -12,3 +12,38 @@
     --light-black-color: #4b4b4e;
     --dark-black-color: #11284b;
 }
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    & .nav-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    & .nav-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 25% 75%;
+
+    & .sidebar {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    & .main-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
